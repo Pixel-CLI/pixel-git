@@ -1,0 +1,9 @@
+exit: 0
+--- stdout
+{
+  "branch": "feature",
+  "head": "OID",
+  "state": "up_to_date",
+  "upstream": "origin/feature"
+}
+--- stderr

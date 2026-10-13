@@ -1,0 +1,4 @@
+exit: 1
+--- stdout
+--- stderr
+pixel: STALE_STATE: expected OID, got OID

@@ -1,0 +1,5 @@
+exit: 1
+--- stdout
+{"ok":false,"op":"edit-env","protocol":1,"result":null,"error":{"code":"INVALID_INPUT","message":"invalid snapshot id \"../x\" (expected 1-64 characters of [A-Za-z0-9._-])"}}
+--- stderr
+pixel: invalid snapshot id "../x" (expected 1-64 characters of [A-Za-z0-9._-])

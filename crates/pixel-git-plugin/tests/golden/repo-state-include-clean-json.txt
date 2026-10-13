@@ -1,0 +1,4 @@
+exit: 0
+--- stdout
+{"branch":"feature","clean":["README.md","src/extra.rs","src/lib.rs","web/app.ts"],"clean_count":4,"clean_list_cap":200,"clean_list_truncated":false,"dirty":[],"dirty_count":0,"head":"OID","root":"ROOT"}
+--- stderr

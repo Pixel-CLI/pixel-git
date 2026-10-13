@@ -1,0 +1,4 @@
+exit: 0
+--- stdout
+{"byte_cap":64000,"commits":[{"date":"OID","oid":"OID","subject":"change alpha"}],"count":1,"cursor":"1","limit":1,"next_cursor":"2","truncated":true}
+--- stderr

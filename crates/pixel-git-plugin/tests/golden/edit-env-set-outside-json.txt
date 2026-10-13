@@ -1,0 +1,5 @@
+exit: 1
+--- stdout
+{"ok":false,"op":"edit-env","protocol":1,"result":null,"error":{"code":"UNSUPPORTED_STATE","message":"UNSUPPORTED_STATE: env file /etc/hosts resolves outside the repo root ROOT"}}
+--- stderr
+pixel: UNSUPPORTED_STATE: env file /etc/hosts resolves outside the repo root ROOT

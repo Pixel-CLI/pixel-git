@@ -1,0 +1,5 @@
+exit: 1
+--- stdout
+{"ok":false,"op":"fast-forward","protocol":1,"result":null,"error":{"code":"STALE_STATE","message":"STALE_STATE: expected OID, got OID"}}
+--- stderr
+pixel: STALE_STATE: expected OID, got OID

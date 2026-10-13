@@ -1,0 +1,9 @@
+exit: 0
+--- stdout
+{
+  "pushed": true,
+  "refspec": "feature",
+  "remote": "origin",
+  "source_oid": "OID"
+}
+--- stderr

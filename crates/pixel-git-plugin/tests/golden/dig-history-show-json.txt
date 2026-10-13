@@ -1,0 +1,4 @@
+exit: 0
+--- stdout
+{"content":"pub fn alpha() -> u32 {\n    1\n}\n","file":"src/lib.rs","oid":"OID","parent_fallback":false,"source":"OID:src/lib.rs"}
+--- stderr

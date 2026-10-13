@@ -1,0 +1,4 @@
+exit: 0
+--- stdout
+{"byte_cap":128,"count":2,"items":[{"kind":"unstaged","path":"src/lib.rs","status":"M"},{"kind":"staged","path":"staged.txt","status":"A"}],"truncated":false}
+--- stderr

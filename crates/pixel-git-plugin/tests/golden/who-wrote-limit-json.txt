@@ -1,0 +1,4 @@
+exit: 0
+--- stdout
+{"authors":{"Plugin Test":3},"file":"src/lib.rs","introduced_by":{"author":"Plugin Test","author_mail":"test@example.com","author_time":"2026-01-02T03:04:05Z","oid":"OID","summary":"initial"},"last_modified":{"author":"Plugin Test","author_mail":"test@example.com","author_time":"2026-01-02T03:04:05Z","oid":"OID","summary":"change alpha"},"line_range":null,"lower_bound":true,"region_count":1,"region_count_total":3,"regions":[{"author":"Plugin Test","author_mail":"test@example.com","author_time":"2026-01-02T03:04:05+00:00","end_line":1,"oid":"OID","start_line":1,"summary":"initial"}],"rename_follow":"log --follow only","verdict":null,"warnings":["regions truncated at limit_regions=1 (3 total); histogram and verdict still cover all regions"]}
+--- stderr

@@ -1,0 +1,5 @@
+exit: 1
+--- stdout
+{"ok":false,"op":"dig-history","protocol":1,"result":null,"error":{"code":"INVALID_INPUT","message":"dig-history --show requires --file <repo-relative path>"}}
+--- stderr
+pixel: dig-history --show requires --file <repo-relative path>

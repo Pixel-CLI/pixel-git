@@ -1,0 +1,4 @@
+exit: 0
+--- stdout
+{"file":"ROOT/.env","file_exists":true,"missing":["MISSING"],"ok":false,"present":["DB_URL"]}
+--- stderr

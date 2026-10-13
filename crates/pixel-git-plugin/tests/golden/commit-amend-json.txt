@@ -1,0 +1,4 @@
+exit: 0
+--- stdout
+{"head":"OID","published":true,"pushed":false}
+--- stderr

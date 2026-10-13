@@ -1,0 +1,4 @@
+exit: 0
+--- stdout
+{"byte_cap":64000,"commits":[{"author":"Plugin Test","body":"","date":"OID","email":"test@example.com","oid":"OID","subject":"add gamma"},{"author":"Plugin Test","body":"","date":"OID","email":"test@example.com","oid":"OID","subject":"change alpha"},{"author":"Plugin Test","body":"","date":"OID","email":"test@example.com","oid":"OID","subject":"initial"}],"count":3,"cursor":null,"limit":20,"next_cursor":null,"truncated":false}
+--- stderr

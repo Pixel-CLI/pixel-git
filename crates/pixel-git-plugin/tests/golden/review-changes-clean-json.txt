@@ -1,0 +1,4 @@
+exit: 0
+--- stdout
+{"byte_cap":64000,"count":0,"items":[],"truncated":false}
+--- stderr

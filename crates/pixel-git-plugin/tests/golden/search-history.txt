@@ -1,0 +1,43 @@
+exit: 0
+--- stdout
+{
+  "candidates": [
+    {
+      "at": "2026-01-02T03:04:05Z",
+      "author": "Plugin Test",
+      "files_touched": 3,
+      "kind": "diff",
+      "oid": "OID",
+      "path": null,
+      "score": 1.OID,
+      "snippet": "pub fn alpha() -> u32 {\n    1\n}\n\n",
+      "subject": "initial"
+    },
+    {
+      "at": "2026-01-02T03:04:05Z",
+      "author": "Plugin Test",
+      "files_touched": 0,
+      "kind": "message",
+      "oid": "OID",
+      "path": null,
+      "score": 1.OID,
+      "snippet": null,
+      "subject": "change alpha"
+    }
+  ],
+  "degraded_to_or": false,
+  "facet": "all",
+  "index_state": {
+    "commits_indexed": 3,
+    "diff_coverage_since": "2026-01-02T03:04:05Z",
+    "diff_indexed_pct": 1.0,
+    "diffs_evicted": 0,
+    "fresh": true,
+    "phase": "fresh",
+    "schema_version": 3,
+    "total_commits": 3
+  },
+  "pass": "and",
+  "query": "alpha"
+}
+--- stderr

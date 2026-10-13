@@ -1,0 +1,4 @@
+exit: 0
+--- stdout
+{"backup_ref":"refs/pixel/rewrite-backup/feature","base_oid":"OID","branch":"feature","commits_squashed":2,"new_head":"OID","old_head":"OID","pushed":false,"state":"squashed","warnings":[]}
+--- stderr

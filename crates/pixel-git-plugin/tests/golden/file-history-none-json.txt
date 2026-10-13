@@ -1,0 +1,5 @@
+exit: 1
+--- stdout
+{"ok":false,"op":"file-history","protocol":1,"result":null,"error":{"code":"INVALID_INPUT","message":"lifecycle requires a path or token"}}
+--- stderr
+pixel: lifecycle requires a path or token

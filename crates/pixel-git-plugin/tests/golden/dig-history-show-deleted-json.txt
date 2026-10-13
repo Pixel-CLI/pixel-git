@@ -1,0 +1,4 @@
+exit: 0
+--- stdout
+{"content":"pub fn gamma() {}\n","file":"src/extra.rs","oid":"OID","parent_fallback":true,"source":"OID^:src/extra.rs"}
+--- stderr

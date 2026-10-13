@@ -1,0 +1,4 @@
+exit: 0
+--- stdout
+{"file_count":2,"files":[{"keys":["DB_URL","STRIPE_KEY","EMPTY"],"line_count":5,"path":".env","snapshot_count":0},{"keys":["WEB_KEY"],"line_count":1,"path":"apps/web/.env.local","snapshot_count":0}],"root":"ROOT"}
+--- stderr

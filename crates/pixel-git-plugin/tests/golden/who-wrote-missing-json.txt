@@ -1,0 +1,5 @@
+exit: 1
+--- stdout
+{"ok":false,"op":"who-wrote","protocol":1,"result":null,"error":{"code":"INVALID_INPUT","message":"FILE_NOT_TRACKED: 'nope.rs' is not tracked by git in this repository"}}
+--- stderr
+pixel: FILE_NOT_TRACKED: 'nope.rs' is not tracked by git in this repository

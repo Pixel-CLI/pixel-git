@@ -1,0 +1,7 @@
+exit: 1
+--- stdout
+{"ok":false,"op":"diff","protocol":1,"result":null,"error":{"code":"INVALID_INPUT","message":"git diff names: git [\"diff\", \"--name-status\", \"--no-renames\", \"-z\", \"--end-of-options\", \"nope\", \"feature\"] exited with Some(128): fatal: ambiguous argument 'nope': unknown revision or path not in the working tree.\nUse '--' to separate paths from revisions, like this:\n'git <command> [<revision>...] -- [<file>...]'"}}
+--- stderr
+pixel: git diff names: git ["diff", "--name-status", "--no-renames", "-z", "--end-of-options", "nope", "feature"] exited with Some(128): fatal: ambiguous argument 'nope': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'

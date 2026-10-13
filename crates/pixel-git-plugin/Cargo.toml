@@ -1,0 +1,45 @@
+# SPDX-FileCopyrightText: The Pixel contributors
+# SPDX-License-Identifier: MIT
+
+[package]
+name = "pixel-git-plugin"
+description = "Pixel plugin: every git command (commit, push, diff, history, branches, rollback, ...) behind one pixel-git binary."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+[lints]
+workspace = true
+
+[lib]
+name = "pixel_git_plugin"
+path = "src/lib.rs"
+
+# The only binary. `pixel-git <command> ...` runs a command; the same binary
+# invoked as `pixel-<command>` (a link made by `pixel-git install-links`) runs
+# that command, which is what `pixel <command>` looks for on PATH.
+[[bin]]
+name = "pixel-git"
+path = "src/main.rs"
+
+[dependencies]
+clap = { workspace = true }
+pixel-daemon = { workspace = true }
+pixel-facts = { workspace = true }
+pixel-git = { workspace = true }
+pixel-index = { workspace = true }
+pixel-ops = { workspace = true }
+pixel-proto = { workspace = true }
+pixel-rank = { workspace = true }
+serde_json = { workspace = true }
+tempfile = { workspace = true, optional = true }
+
+[features]
+# Git fixtures and the comparison with the core built-in used by the tests.
+testing = ["dep:tempfile"]
+
+[dev-dependencies]
+pixel-git-plugin = { path = ".", features = ["testing"] }
+tempfile = { workspace = true }

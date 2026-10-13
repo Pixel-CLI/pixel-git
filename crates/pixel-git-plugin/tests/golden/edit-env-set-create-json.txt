@@ -1,0 +1,4 @@
+exit: 0
+--- stdout
+{"action":"appended","file":"ROOT/.env.test","key":"A","keys_after":1,"keys_before":0,"snapshot":null}
+--- stderr

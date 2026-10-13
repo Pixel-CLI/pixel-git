@@ -1,0 +1,5 @@
+exit: 1
+--- stdout
+{"ok":false,"op":"dig-history","protocol":1,"result":null,"error":{"code":"INVALID_INPUT","message":"nope.rs exists neither at OID nor at OID^: git [\"show\", \"--end-of-options\", \"OID:nope.rs\"] exited with Some(128): fatal: path 'nope.rs' does not exist in 'OID'"}}
+--- stderr
+pixel: nope.rs exists neither at OID nor at OID^: git ["show", "--end-of-options", "OID:nope.rs"] exited with Some(128): fatal: path 'nope.rs' does not exist in 'OID'

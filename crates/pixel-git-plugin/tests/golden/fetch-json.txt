@@ -1,0 +1,4 @@
+exit: 0
+--- stdout
+{"refs":[{"oid":"OID","ref":"origin"},{"oid":"OID","ref":"origin/feature"},{"oid":"OID","ref":"origin/main"}],"refspec":null,"remote":"origin","synced":true}
+--- stderr

@@ -1,0 +1,29 @@
+exit: 0
+--- stdout
+{
+  "first_seen": {
+    "at": "2026-01-02T03:04:05Z",
+    "oid": "OID",
+    "subject": "add gamma"
+  },
+  "index_state": {
+    "commits_indexed": 3,
+    "diff_coverage_since": "2026-01-02T03:04:05Z",
+    "diff_indexed_pct": 1.0,
+    "diffs_evicted": 0,
+    "fresh": true,
+    "phase": "fresh",
+    "schema_version": 3,
+    "total_commits": 3
+  },
+  "last_changed": {
+    "at": "2026-01-02T03:04:05Z",
+    "oid": "OID",
+    "subject": "add gamma"
+  },
+  "present_at_head": true,
+  "removed_in": null,
+  "total_touches": 1,
+  "what": "src/extra.rs"
+}
+--- stderr

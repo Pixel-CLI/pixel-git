@@ -1,0 +1,9 @@
+exit: 0
+--- stdout
+{
+  "fast_forwarded": true,
+  "from": "OID",
+  "to": "OID",
+  "updated": true
+}
+--- stderr

@@ -1,0 +1,4 @@
+exit: 0
+--- stdout
+{"file":"ROOT/.env","keys_now":["DB_URL","STRIPE_KEY","EMPTY"],"restored_from":"SNAPSHOT"}
+--- stderr

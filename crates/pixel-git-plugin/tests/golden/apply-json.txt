@@ -1,0 +1,4 @@
+exit: 0
+--- stdout
+{"applied":"OID","files":[{"action":"restored","path":"src/lib.rs"}],"note":"working tree only — index and HEAD untouched; undo with `git checkout -- <file>` (or `git stash pop` if --stash-first was used)"}
+--- stderr

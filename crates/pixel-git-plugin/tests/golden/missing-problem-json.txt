@@ -1,0 +1,5 @@
+exit: 1
+--- stdout
+{"ok":false,"op":"plan-rollback","protocol":1,"result":null,"error":{"code":"INVALID_INPUT","message":"missing problem description"}}
+--- stderr
+pixel: missing problem description

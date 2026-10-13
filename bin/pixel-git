@@ -1,0 +1,22 @@
+#!/bin/sh
+# SPDX-FileCopyrightText: The Pixel contributors
+# SPDX-License-Identifier: MIT
+#
+# Launcher for the `git` Pixel plugin: the manifest's `run`. The plugin is the
+# Rust binary `pixel-git`; this file only finds it and hands over the
+# arguments. A release install replaces this file with the binary itself
+# (the `pixel-git-<target>` release asset).
+#
+# Looked up in order: $PIXEL_GIT_BIN, $CARGO_HOME/bin (where `cargo install`
+# puts it), then PATH. A candidate that is this very file is skipped, so the
+# launcher can never exec itself.
+for candidate in "${PIXEL_GIT_BIN:-}" "${CARGO_HOME:-$HOME/.cargo}/bin/pixel-git" "$(command -v pixel-git 2>/dev/null || true)"; do
+  if [ -n "$candidate" ] && [ -x "$candidate" ] && ! [ "$candidate" -ef "$0" ]; then
+    exec "$candidate" "$@"
+  fi
+done
+cat >&2 <<'MSG'
+pixel: the `git` plugin has no `pixel-git` binary installed. Install it with:
+  cargo install --git https://github.com/Pixel-CLI/pixel-git pixel-git-plugin
+MSG
+exit 127

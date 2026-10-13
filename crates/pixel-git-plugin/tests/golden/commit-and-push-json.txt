@@ -1,0 +1,4 @@
+exit: 0
+--- stdout
+{"published":{"head":"OID","published":true,"pushed":false},"pushed":{"pushed":true,"refspec":"feature","remote":"origin","source_oid":"OID"},"shipped":true}
+--- stderr

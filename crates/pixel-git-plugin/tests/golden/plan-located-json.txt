@@ -1,0 +1,4 @@
+exit: 0
+--- stdout
+{"decision":{"caveats":[],"options":[{"command":"pixel plan-rollback --apply OID --file src/lib.rs .","id":"revert","label":"Revert 1 file(s) to the recommended version (working tree only, undoable)"},{"id":"fix_forward","label":"Keep current code; fix forward"}]},"dirty_files":[],"problem":"alpha stopped working","root":"ROOT","targets":[{"depth_cap_hit":false,"depth_note":null,"dirty":false,"path":"src/lib.rs","recommended":{"basis":"content-differs: no suspect commit found; this is only the state before the file's most recent change","oid":"OID","reason":"newest version whose content differs from HEAD"},"versions":[{"blob_differs_from_head":false,"oid":"OID","short":"OID","subject":"change alpha","suspect":false,"suspect_basis":null,"unix_date":OID},{"blob_differs_from_head":true,"oid":"OID","short":"OID","subject":"initial","suspect":false,"suspect_basis":null,"unix_date":OID}]}]}
+--- stderr

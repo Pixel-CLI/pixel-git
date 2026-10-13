@@ -1,0 +1,5 @@
+exit: 2
+--- stdout
+--- stderr
+error: invalid value '5' for '--lines <LINES>': expected 'start,end', got '5'
+For more information, try '--help'.

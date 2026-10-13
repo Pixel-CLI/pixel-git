@@ -1,0 +1,10 @@
+exit: 0
+--- stdout
+src/lib.rs
+  OID  change alpha
+  OID  initial
+  → recommended: OID (newest version whose content differs from HEAD)
+
+revert: pixel plan-rollback --apply OID --file src/lib.rs .
+fix forward: keep current code and fix the bug in place
+--- stderr

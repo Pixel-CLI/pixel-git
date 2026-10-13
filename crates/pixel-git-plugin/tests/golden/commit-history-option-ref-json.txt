@@ -1,0 +1,5 @@
+exit: 1
+--- stdout
+{"ok":false,"op":"commit-history","protocol":1,"result":null,"error":{"code":"INVALID_INPUT","message":"invalid git ref: \"--output=x\""}}
+--- stderr
+pixel: invalid git ref: "--output=x"

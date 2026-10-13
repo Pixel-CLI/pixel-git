@@ -1,0 +1,4 @@
+exit: 0
+--- stdout
+{"branch":"feature","from":"OID","state":"fast_forwarded","to":"OID"}
+--- stderr

@@ -1,0 +1,4 @@
+exit: 0
+--- stdout
+{"authors":{"Plugin Test":1},"file":"src/lib.rs","introduced_by":{"author":"Plugin Test","author_mail":"test@example.com","author_time":"2026-01-02T03:04:05Z","oid":"OID","summary":"initial"},"last_modified":{"author":"Plugin Test","author_mail":"test@example.com","author_time":"2026-01-02T03:04:05Z","oid":"OID","summary":"change alpha"},"line_range":[2,2],"lower_bound":false,"region_count":1,"region_count_total":1,"regions":[{"author":"Plugin Test","author_mail":"test@example.com","author_time":"2026-01-02T03:04:05+00:00","end_line":2,"oid":"OID","start_line":2,"summary":"change alpha"}],"rename_follow":"log --follow only","verdict":null,"warnings":[]}
+--- stderr

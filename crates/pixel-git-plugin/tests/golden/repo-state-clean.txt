@@ -1,0 +1,11 @@
+exit: 0
+--- stdout
+{
+  "branch": "feature",
+  "clean_count": 4,
+  "dirty": [],
+  "dirty_count": 0,
+  "head": "OID",
+  "root": "ROOT"
+}
+--- stderr

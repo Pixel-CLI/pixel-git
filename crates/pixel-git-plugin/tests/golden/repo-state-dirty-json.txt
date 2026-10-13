@@ -1,0 +1,4 @@
+exit: 0
+--- stdout
+{"branch":"feature","clean_count":3,"dirty":[{"fingerprint":"OID","path":"src/lib.rs","status":"M"},{"fingerprint":"OID","path":"staged.txt","status":"A"},{"fingerprint":"OID","path":"untracked.txt","status":"??"}],"dirty_count":3,"head":"OID","root":"ROOT"}
+--- stderr

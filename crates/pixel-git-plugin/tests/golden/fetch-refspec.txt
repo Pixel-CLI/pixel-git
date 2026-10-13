@@ -1,0 +1,4 @@
+exit: 1
+--- stdout
+--- stderr
+pixel: invalid git ref: "refs/heads/main:refs/remotes/origin/main"

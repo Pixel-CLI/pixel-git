@@ -1,0 +1,5 @@
+exit: 1
+--- stdout
+{"ok":false,"op":"commit","protocol":1,"result":null,"error":{"code":"INVALID_INPUT","message":"git commit: git [\"commit\", \"--no-edit\", \"-m\", \"nothing\"] exited with Some(1): "}}
+--- stderr
+pixel: git commit: git ["commit", "--no-edit", "-m", "nothing"] exited with Some(1): 

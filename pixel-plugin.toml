@@ -1,0 +1,40 @@
+# SPDX-FileCopyrightText: The Pixel contributors
+# SPDX-License-Identifier: MIT
+
+name = "git"
+version = "0.1.0"
+api = 1
+description = "Every git command of Pixel: commit, push, diff, history, branches, rollback, blame, .env edits."
+run = "bin/pixel-git"
+capabilities = ["command"]
+# push, fetch, commit-and-push, list-branches --fetch and sync-branch talk to
+# a remote through git.
+network = true
+
+# Not read by plugin API 1 (the host ignores keys it does not know): the
+# commands this plugin answers to. API 1 resolves `pixel <name>` to a plugin
+# *named* <name>, so today `pixel commit` finds this plugin only through the
+# `pixel-<command>` links of `pixel-git install-links`; a host that reads this
+# list would route every name below to `pixel-git <name>` by itself.
+# tests/manifest.rs keeps the list equal to the commands the binary has.
+commands = [
+  "commit",
+  "push",
+  "commit-and-push",
+  "new-branch",
+  "fast-forward",
+  "squash-branch",
+  "sync-branch",
+  "fetch",
+  "list-branches",
+  "diff",
+  "commit-history",
+  "repo-state",
+  "review-changes",
+  "who-wrote",
+  "edit-env",
+  "plan-rollback",
+  "search-history",
+  "file-history",
+  "dig-history",
+]

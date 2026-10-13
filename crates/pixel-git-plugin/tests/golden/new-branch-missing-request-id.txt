@@ -1,0 +1,8 @@
+exit: 2
+--- stdout
+--- stderr
+error: the following required arguments were not provided:
+  --request-id <REQUEST_ID>
+  tip: mutation ops need --request-id <id>: any stable string naming this operation, passed unchanged on a retry so pixel replays its result instead of running it twice
+Usage: pixel new-branch --request-id <REQUEST_ID> <NAME> [PATH]
+For more information, try '--help'.

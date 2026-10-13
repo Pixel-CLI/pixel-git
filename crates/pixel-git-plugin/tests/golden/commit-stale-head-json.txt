@@ -1,0 +1,5 @@
+exit: 1
+--- stdout
+{"ok":false,"op":"commit","protocol":1,"result":null,"error":{"code":"STALE_STATE","message":"STALE_STATE: expected head OID, got Some(\"OID\")"}}
+--- stderr
+pixel: STALE_STATE: expected head OID, got Some("OID")

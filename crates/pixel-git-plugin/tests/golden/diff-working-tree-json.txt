@@ -1,0 +1,4 @@
+exit: 0
+--- stdout
+{"byte_cap":64000,"diff":"diff --git a/src/lib.rs b/src/lib.rs\nindex OID..OID 100644\n--- a/src/lib.rs\n+++ b/src/lib.rs\n@@ -1,3 +1,3 @@\n pub fn alpha() -> u32 {\n-    2\n+    3\n }\ndiff --git a/staged.txt b/staged.txt\nnew file mode 100644\nindex OID..OID\n--- /dev/null\n+++ b/staged.txt\n@@ -0,0 +1 @@\n+staged\n","file_count":2,"files":[{"path":"src/lib.rs","status":"M"},{"path":"staged.txt","status":"A"}],"from":"HEAD","to":null,"truncated":false}
+--- stderr

@@ -1,0 +1,4 @@
+exit: 0
+--- stdout
+{"file":"ROOT/.env","snapshot_count":1,"snapshots":[{"bytes":79,"id":"SNAPSHOT","keys":3}]}
+--- stderr

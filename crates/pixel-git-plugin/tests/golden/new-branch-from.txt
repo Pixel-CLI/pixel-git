@@ -1,0 +1,9 @@
+exit: 0
+--- stdout
+{
+  "branch": "topic",
+  "checked_out": true,
+  "created": true,
+  "from": "main"
+}
+--- stderr

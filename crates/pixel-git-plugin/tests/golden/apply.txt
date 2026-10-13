@@ -1,0 +1,5 @@
+exit: 0
+--- stdout
+src/lib.rs: restored
+working tree only — index and HEAD untouched; undo with `git checkout -- <file>` (or `git stash pop` if --stash-first was used)
+--- stderr

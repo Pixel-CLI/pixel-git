@@ -1,0 +1,4 @@
+exit: 0
+--- stdout
+{"byte_cap":64000,"diff":"diff --git a/src/extra.rs b/src/extra.rs\nnew file mode 100644\nindex OID..OID\n--- /dev/null\n+++ b/src/extra.rs\n@@ -0,0 +1 @@\n+pub fn gamma() {}\n","file_count":1,"files":[{"path":"src/extra.rs","status":"A"}],"from":"main","to":"feature","truncated":false}
+--- stderr

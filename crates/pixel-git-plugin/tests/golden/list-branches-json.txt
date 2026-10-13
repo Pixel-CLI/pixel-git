@@ -1,0 +1,4 @@
+exit: 0
+--- stdout
+{"branches":[{"ahead":null,"behind":null,"head_oid":"OID","is_current":true,"last_commit":{"author":"Plugin Test","date":"2026-01-02T03:04:05Z","subject":"add gamma"},"merged_into_default":false,"name":"feature","stale":true,"upstream":null,"upstream_gone":false},{"ahead":null,"behind":null,"head_oid":"OID","is_current":false,"last_commit":{"author":"Plugin Test","date":"2026-01-02T03:04:05Z","subject":"initial"},"merged_into_default":true,"name":"main","stale":true,"upstream":null,"upstream_gone":false}],"default_branch":"main","fetched":false,"remote":"origin","root":"ROOT","stale_days":30,"summary":{"current":"feature","fully_pushed":true,"merged_candidates":[],"no_upstream":["feature","main"],"stale":["feature","main"],"total":2,"unpushed":[]},"warnings":["fetched=false: remote-tracking refs reflect the last fetch; ahead/behind vs 'origin' may be stale (use fetch=true for a live view)"],"worktree_clean":true}
+--- stderr

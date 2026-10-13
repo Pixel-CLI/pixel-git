@@ -1,0 +1,7 @@
+exit: 0
+--- stdout
+pub fn alpha() -> u32 {
+    1
+}
+--- stderr
+pixel: OID:src/lib.rs

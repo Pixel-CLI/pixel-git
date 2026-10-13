@@ -1,0 +1,5 @@
+exit: 1
+--- stdout
+{"ok":false,"op":"new-branch","protocol":1,"result":null,"error":{"code":"REF_EXISTS","message":"REF_EXISTS: branch 'main' already exists"}}
+--- stderr
+pixel: REF_EXISTS: branch 'main' already exists

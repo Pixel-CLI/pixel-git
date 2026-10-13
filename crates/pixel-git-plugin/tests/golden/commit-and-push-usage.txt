@@ -1,0 +1,8 @@
+exit: 2
+--- stdout
+--- stderr
+error: the following required arguments were not provided:
+  <REMOTE>
+  <REFSPEC>
+Usage: pixel commit-and-push --request-id <REQUEST_ID> --message <MESSAGE> <REMOTE> <REFSPEC> [PATH]
+For more information, try '--help'.
